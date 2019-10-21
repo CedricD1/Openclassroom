@@ -9,10 +9,10 @@ export class BlogItemComponent implements OnInit {
 
 	dateMaj = new Date();
 
-	@Input() titrePost: "string";
-	@Input() contenuPost: "string";
-	@Input() loveItsPost: "numeric";
-	@Input() datePost: date;
+	@Input() titrePost: 'string';
+	@Input() contenuPost: 'string';
+	@Input() loveItsPost: 'number';
+	@Input() datePost: 'date';
 
   constructor() { }
 
