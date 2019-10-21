@@ -11,7 +11,7 @@ export class BlogItemComponent implements OnInit {
 
 	@Input() titrePost: 'string';
 	@Input() contenuPost: 'string';
-	@Input() loveItsPost: 'number';
+	@Input() loveItsPost;
 	@Input() datePost: 'date';
 
   constructor() { }
